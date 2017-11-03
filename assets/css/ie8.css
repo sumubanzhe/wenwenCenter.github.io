@@ -1,5 +1,5 @@
 /*
-	Strata by HTML5 UP
+	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -9,9 +9,9 @@
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
+	button,
 	.button {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		border: solid 1px #dedede;
 	}
 
 /* Form */
@@ -19,56 +19,54 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		border: solid 1px #dedede;
 	}
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select {
-		height: 2.75em;
-		line-height: 2.75em;
+/* Post */
+
+	.post {
+		border: solid 1px #dedede;
 	}
 
-	input[type="checkbox"] + label:before,
-	input[type="radio"] + label:before {
-		display: none;
-	}
-
-/* Image */
-
-	.image {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.image:before, .image:after {
-			display: none !important;
+		.post > header {
+			border-bottom: solid 1px #dedede;
 		}
 
-		.image img {
-			position: relative;
-			-ms-behavior: url("assets/js/ie/PIE.htc");
-		}
+/* Mini Post */
+
+	.mini-post {
+		border: solid 1px #dedede;
+	}
 
 /* Header */
 
 	#header {
-		background-image: url("../../images/bg.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		border-bottom: solid 1px #dedede;
 	}
 
-		#header h1 {
-			color: #ffffff;
+		#header .links {
+			border-left: solid 1px #dedede;
 		}
 
-/* Footer */
+		#header .main ul li {
+			border-left: solid 1px #dedede;
+		}
 
-	#footer .icons a {
-		color: #ffffff;
+/* Sidebar */
+
+	#sidebar > * {
+		border-top: solid 1px #dedede;
 	}
+
+/* Menu */
+
+	#menu {
+		border-left: solid 1px #dedede;
+	}
+
+		#menu > * {
+			border-top: solid 1px #dedede;
+		}
